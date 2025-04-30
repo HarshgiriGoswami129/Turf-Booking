@@ -11,8 +11,8 @@ extension on TextStyle {
 
 class CustomTextStyles {
   static get titleExtraBold => TextStyle(
-        color: appTheme.white,
-        fontSize: 30,
+        color: appTheme.black,
+        fontSize: 32,
         fontWeight: FontWeight.w700,
       ).raleway;
   static get bodyBold => TextStyle(
@@ -21,7 +21,7 @@ class CustomTextStyles {
         fontWeight: FontWeight.w700,
       ).raleway;
   static get bodyButtonBold => TextStyle(
-        color: appTheme.primaryColor,
+        color: appTheme.white,
         fontSize: 14,
         fontWeight: FontWeight.w700,
       ).raleway;

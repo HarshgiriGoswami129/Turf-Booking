@@ -13,8 +13,10 @@ class ThemeHelper {
 class LightCodeColors {
   Color get transparent => Colors.transparent;
   Color get white => Colors.white;
+  Color get black => Color(0xFF192126);
   Color get primaryColor => Color(0xFF0E1622);
-  Color get secondoryColor => Color(0xFF97D5E0);
+  Color get secondoryColor => Color(0xFFfd6326);
   Color get buttonBorderColor => Color(0xFF0E1622);
+  Color get textFieldBackground => Color(0xFFE5E6EB);
   Color get primaryBorderColor => Color.fromARGB(255, 181, 181, 181);
 }
